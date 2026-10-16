@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Poshteh's module descriptor/registration contract for composing bounded capabilities across topologies.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Poshteh.Core.Domain\Poshteh.Core.Domain.csproj" />
+    <ProjectReference Include="..\Poshteh.Core.Contract\Poshteh.Core.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

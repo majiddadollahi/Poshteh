@@ -1,0 +1,32 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/00.Shared/">
+    <Project Path="src/00.Shared/Poshteh.Shared.Kernel/Poshteh.Shared.Kernel.csproj" />
+  </Folder>
+  <Folder Name="/src/01.Core/">
+    <Project Path="src/01.Core/Poshteh.Core.ApplicationService/Poshteh.Core.ApplicationService.csproj" />
+    <Project Path="src/01.Core/Poshteh.Core.Contract/Poshteh.Core.Contract.csproj" />
+    <Project Path="src/01.Core/Poshteh.Core.Domain/Poshteh.Core.Domain.csproj" />
+    <Project Path="src/01.Core/Poshteh.Core.ModuleKernel/Poshteh.Core.ModuleKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/02.Infra/">
+    <Project Path="src/02.Infra/Poshteh.Infra.Data.Sql.Command/Poshteh.Infra.Data.Sql.Command.csproj" />
+    <Project Path="src/02.Infra/Poshteh.Infra.Data.Sql.Query/Poshteh.Infra.Data.Sql.Query.csproj" />
+  </Folder>
+  <Folder Name="/src/03.Endpoints/">
+    <Project Path="src/03.Endpoints/Poshteh.Endpoint.Api/Poshteh.Endpoint.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/04.Host/">
+    <Project Path="src/04.Host/Poshteh.Host.Web/Poshteh.Host.Web.csproj" />
+    <Project Path="src/04.Host/Poshteh.Host.Worker/Poshteh.Host.Worker.csproj" />
+  </Folder>
+  <Folder Name="/src/05.Quality/">
+    <Project Path="src/05.Quality/Poshteh.Testing.Kit/Poshteh.Testing.Kit.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/Poshteh.Sample.Ordering/Poshteh.Sample.Ordering.csproj" />
+  </Folder>
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/Poshteh.Core.ApplicationService.Tests/Poshteh.Core.ApplicationService.Tests.csproj" />
+  </Folder>
+</Solution>

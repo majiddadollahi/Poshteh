@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Poshteh's rich domain model kernel: AggregateRoot, BaseEntity, ValueObject, DomainEvent, Result/Error, IUnitOfWork.</Description>
+  </PropertyGroup>
+
+</Project>

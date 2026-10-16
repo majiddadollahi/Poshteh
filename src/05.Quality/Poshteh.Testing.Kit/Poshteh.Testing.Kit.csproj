@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Contract-test bases and in-memory port implementations for consumers' own test suites.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\Poshteh.Core.Domain\Poshteh.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\01.Core\Poshteh.Core.Contract\Poshteh.Core.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

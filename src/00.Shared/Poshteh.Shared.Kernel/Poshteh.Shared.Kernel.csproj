@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Dependency-free shared primitives (Clock, correlation accessor) used across every Poshteh layer.</Description>
+  </PropertyGroup>
+
+</Project>

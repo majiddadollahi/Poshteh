@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Poshteh's HTTP adapter helpers: Result-to-HTTP mapping and the global exception handler.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\Poshteh.Core.Domain\Poshteh.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\01.Core\Poshteh.Core.ApplicationService\Poshteh.Core.ApplicationService.csproj" />
+  </ItemGroup>
+
+</Project>

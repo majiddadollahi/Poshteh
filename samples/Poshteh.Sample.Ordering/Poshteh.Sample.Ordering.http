@@ -1,0 +1,16 @@
+@host = http://localhost:5080
+
+POST {{host}}/orders
+Content-Type: application/json
+
+{
+  "customerName": "Ada Lovelace",
+  "items": [
+    { "productName": "Mechanical Keyboard", "unitPrice": 120.50, "quantity": 1 },
+    { "productName": "USB-C Hub", "unitPrice": 35.00, "quantity": 2 }
+  ]
+}
+
+###
+
+GET {{host}}/orders/1

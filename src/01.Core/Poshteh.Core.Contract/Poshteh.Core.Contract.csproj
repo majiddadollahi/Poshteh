@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Poshteh's ports (repositories, outbox, domain event dispatch) — the sole mediation point between Core and Infra.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Poshteh.Core.Domain\Poshteh.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

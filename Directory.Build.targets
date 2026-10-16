@@ -1,0 +1,6 @@
+<Project>
+  <!-- Pack automatically on every build for projects that opted into IsPackable in their own .csproj. -->
+  <PropertyGroup Condition="'$(IsPackable)' == 'true'">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>
