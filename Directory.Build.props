@@ -13,11 +13,20 @@
        explicitly. See ../docs/FRAMEWORK.md and ../docs/ARCHITECTURE.md from the workspace root. -->
   <PropertyGroup>
     <IsPackable>false</IsPackable>
-    <Version>10.0.0.0</Version>
+    <PoshtehVersion Condition="'$(PoshtehVersion)' == ''">10.0.1</PoshtehVersion>
+    <Version>$(PoshtehVersion)</Version>
+    <PackageVersion>$(PoshtehVersion)</PackageVersion>
+    <AssemblyVersion>$(PoshtehVersion).0</AssemblyVersion>
+    <FileVersion>$(PoshtehVersion).0</FileVersion>
     <Authors>Poshteh</Authors>
     <Company>Poshteh</Company>
     <Product>Poshteh</Product>
-    <PackageOutputPath>D:\nugets</PackageOutputPath>
+
+    <!-- Override PoshtehPackageOutputPath (or PackageOutputPath) in CI and on developer machines
+         that do not use the local D: package feed. -->
+    <PoshtehPackageOutputPath Condition="'$(PoshtehPackageOutputPath)' == '' and '$(OS)' == 'Windows_NT' and Exists('D:\')">D:\NuGets</PoshtehPackageOutputPath>
+    <PoshtehPackageOutputPath Condition="'$(PoshtehPackageOutputPath)' == ''">$(MSBuildThisFileDirectory)artifacts\packages</PoshtehPackageOutputPath>
+    <PackageOutputPath Condition="'$(PackageOutputPath)' == ''">$(PoshtehPackageOutputPath)</PackageOutputPath>
   </PropertyGroup>
 
 </Project>
