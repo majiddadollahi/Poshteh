@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\PoshtehStarter.Core.ApplicationService\PoshtehStarter.Core.ApplicationService.csproj" />
+    <ProjectReference Include="..\..\02.Infra\PoshtehStarter.Infra.Data.Sql.Command\PoshtehStarter.Infra.Data.Sql.Command.csproj" />
+    <ProjectReference Include="..\..\02.Infra\PoshtehStarter.Infra.Data.Sql.Query\PoshtehStarter.Infra.Data.Sql.Query.csproj" />
+    <ProjectReference Include="..\..\03.Endpoints\PoshtehStarter.Endpoint.Api\PoshtehStarter.Endpoint.Api.csproj" />
+  </ItemGroup>
+
+</Project>

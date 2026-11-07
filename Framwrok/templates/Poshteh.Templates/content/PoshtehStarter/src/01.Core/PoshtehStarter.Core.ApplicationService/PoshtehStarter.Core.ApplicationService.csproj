@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Poshteh.Core.ApplicationService" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PoshtehStarter.Core.Domain\PoshtehStarter.Core.Domain.csproj" />
+    <ProjectReference Include="..\PoshtehStarter.Core.Contract\PoshtehStarter.Core.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

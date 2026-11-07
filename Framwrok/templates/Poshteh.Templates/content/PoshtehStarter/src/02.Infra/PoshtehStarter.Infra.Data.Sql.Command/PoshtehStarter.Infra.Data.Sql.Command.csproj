@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Poshteh.Infra.Data.Sql.Command" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\PoshtehStarter.Core.Contract\PoshtehStarter.Core.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

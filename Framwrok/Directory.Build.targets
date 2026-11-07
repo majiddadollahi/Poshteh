@@ -3,4 +3,12 @@
   <PropertyGroup Condition="'$(IsPackable)' == 'true'">
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <!-- Library packages share one English readme; projects with their own (e.g. Poshteh.Templates) keep it. -->
+  <PropertyGroup Condition="'$(IsPackable)' == 'true' and '$(PackageReadmeFile)' == ''">
+    <PackageReadmeFile>PACKAGE.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(IsPackable)' == 'true' and '$(PackageReadmeFile)' == 'PACKAGE.md'">
+    <None Include="$(MSBuildThisFileDirectory)PACKAGE.md" Pack="true" PackagePath="\" Visible="false" />
+  </ItemGroup>
 </Project>

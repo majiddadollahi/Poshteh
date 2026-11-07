@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Template package for `dotnet new`. Version, authors and PackageOutputPath come from ../../Directory.Build.props,
+       so the template ships with the same version as the Poshteh.* packages it references. -->
+  <PropertyGroup>
+    <PackageId>Poshteh.Templates</PackageId>
+    <PackageType>Template</PackageType>
+    <IsPackable>true</IsPackable>
+    <Title>Poshteh Templates</Title>
+    <Description>dotnet new templates for applications built on the Poshteh framework (DDD, CQRS, Transactional Outbox). Install with: dotnet new install Poshteh.Templates</Description>
+    <PackageTags>dotnet-new;templates;poshteh;ddd;cqrs;clean-architecture</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <!-- No assemblies, so no symbol package. -->
+    <IncludeSymbols>false</IncludeSymbols>
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <!-- Keep dot-files (.template.config, .editorconfig, .gitignore, .gitattributes) in the package. -->
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <!-- The template content is packed as-is and never compiled into this project. -->
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="content\**\*"
+          Exclude="content\**\bin\**;content\**\obj\**;content\**\.vs\**;content\**\TestResults\**;content\**\*.user;content\**\*.db;content\**\*.db-shm;content\**\*.db-wal"
+          Pack="true" PackagePath="content" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

@@ -21,6 +21,21 @@
     <Authors>Poshteh</Authors>
     <Company>Poshteh</Company>
     <Product>Poshteh</Product>
+    <Copyright>Copyright (c) 2026 Majid Dadollahi</Copyright>
+
+    <!-- nuget.org metadata. -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/majiddadollahi/Poshteh</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/majiddadollahi/Poshteh.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageTags Condition="'$(PackageTags)' == ''">poshteh;ddd;cqrs;clean-architecture;outbox;efcore</PackageTags>
+
+    <!-- Symbols (.snupkg) + deterministic builds so Source Link can step into Poshteh sources. -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true' or '$(TF_BUILD)' == 'true'">true</ContinuousIntegrationBuild>
 
     <!-- Override PoshtehPackageOutputPath (or PackageOutputPath) in CI and on developer machines
          that do not use the local D: package feed. -->

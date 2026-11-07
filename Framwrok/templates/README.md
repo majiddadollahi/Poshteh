@@ -1,7 +1,15 @@
 # Templates
 
-Project templates are not implemented yet. This directory is a placeholder and
-must not be used as evidence that a `dotnet new` package is available.
+`Poshteh.Templates/` contains the `dotnet new` template package for applications built on the Poshteh
+framework:
 
-See `../../docs/CURRENT-STATE.md`.
+| Template | Short name | Identity |
+|---|---|---|
+| Poshteh Application | `poshteh` | `Poshteh.Templates.Application` |
 
+```powershell
+dotnet new install ./Poshteh.Templates/content/PoshtehStarter
+dotnet new poshteh -n Mahtab --PoshtehFeed <feed-hosting-Poshteh-packages>
+```
+
+See [Poshteh.Templates/README.md](Poshteh.Templates/README.md) for parameters, packaging and maintenance.

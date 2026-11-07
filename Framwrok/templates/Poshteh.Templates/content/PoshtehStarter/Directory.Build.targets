@@ -1,0 +1,11 @@
+<Project>
+
+  <!-- The application's own projects are named <AppName>.Core.Domain, <AppName>.Endpoint.Api, ... while the
+       framework ships packages named Poshteh.Core.Domain, Poshteh.Endpoint.Api, ... An application named exactly
+       "Poshteh" would therefore reference itself; fail early with a clear message instead of a NuGet cycle error. -->
+  <Target Name="PoshtehValidateApplicationName" BeforeTargets="CollectPackageReferences;Build"
+          Condition="'$(MSBuildProjectName)' == 'Poshteh.Core.Domain' or '$(MSBuildProjectName)' == 'Poshteh.Core.Contract' or '$(MSBuildProjectName)' == 'Poshteh.Core.ApplicationService' or '$(MSBuildProjectName)' == 'Poshteh.Infra.Data.Sql.Command' or '$(MSBuildProjectName)' == 'Poshteh.Infra.Data.Sql.Query' or '$(MSBuildProjectName)' == 'Poshteh.Endpoint.Api'">
+    <Error Text="Project '$(MSBuildProjectName)' collides with a Poshteh framework package ID. Regenerate the application with a different name: dotnet new poshteh -n &lt;Name&gt; (any name except 'Poshteh')." />
+  </Target>
+
+</Project>

@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Poshteh",
+  "classifications": [ "Web", "WebAPI", "DDD", "CQRS", "Poshteh" ],
+  "identity": "Poshteh.Templates.Application",
+  "groupIdentity": "Poshteh.Templates.Application",
+  "name": "Poshteh Application",
+  "description": "A runnable layered Web API on the Poshteh framework packages (Domain, Contract, ApplicationService, Sql Command/Query, Endpoint.Api with controllers + Swagger, unit tests) with a full CRUD sample including filtering and paging; --ModularMonolith moves startup into a separate Host.Web project.",
+  "shortName": "poshteh",
+  "sourceName": "PoshtehStarter",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "forms": {
+    "safeNamespace": {
+      "identifier": "safe_namespace"
+    }
+  },
+  "symbols": {
+    "AppName": {
+      "type": "derived",
+      "valueSource": "name",
+      "valueTransform": "safeNamespace",
+      "replaces": "PoshtehStarter",
+      "fileRename": "PoshtehStarter",
+      "description": "Project/namespace-safe form of --name, applied identically to file names and file contents so ProjectReference paths always match (e.g. 'my-app' -> 'my_app', '1App' -> '_1App')."
+    },
+    "FrameworkVersion": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "10.0.1",
+      "replaces": "10.0.1",
+      "onlyIf": [ { "after": "<PoshtehFrameworkVersion>", "before": "</PoshtehFrameworkVersion>" } ],
+      "displayName": "Poshteh framework version",
+      "description": "Version of the Poshteh.* NuGet packages the generated application references (Directory.Packages.props)."
+    },
+    "PoshtehFeed": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "",
+      "replaces": "POSHTEH_PACKAGE_SOURCE",
+      "displayName": "Poshteh package feed",
+      "description": "Optional NuGet source (URL or folder) that hosts the Poshteh.* packages. When set, it is added to the generated NuGet.config next to nuget.org."
+    },
+    "ModularMonolith": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "displayName": "Modular monolith (with Host)",
+      "description": "Generates a separate src/04.Host/<name>.Host.Web composition root and keeps Endpoint.Api a library. Without it Endpoint.Api is the runnable web app (Swagger + SQLite)."
+    },
+    "HasPoshtehFeed": {
+      "type": "computed",
+      "value": "(PoshtehFeed != \"\")"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ "**/[Bb]in/**", "**/[Oo]bj/**", "**/.vs/**", "**/*.db", "**/*.db-shm", "**/*.db-wal", "**/*.user", "**/TestResults/**" ]
+        },
+        {
+          "condition": "(HasPoshtehFeed)",
+          "exclude": [ "NuGet.config" ],
+          "rename": { "NuGet.feed.config": "NuGet.config" }
+        },
+        {
+          "condition": "(!HasPoshtehFeed)",
+          "exclude": [ "NuGet.feed.config" ]
+        },
+        {
+          "condition": "(!ModularMonolith)",
+          "exclude": [ "src/04.Host/**" ]
+        },
+        {
+          "condition": "(ModularMonolith)",
+          "exclude": [
+            "src/03.Endpoints/PoshtehStarter.Endpoint.Api/Program.cs",
+            "src/03.Endpoints/PoshtehStarter.Endpoint.Api/appsettings.json",
+            "src/03.Endpoints/PoshtehStarter.Endpoint.Api/Properties/**",
+            "src/03.Endpoints/PoshtehStarter.Endpoint.Api/PoshtehStarter.Endpoint.Api.http"
+          ]
+        }
+      ]
+    }
+  ],
+  "primaryOutputs": [
+    { "path": "PoshtehStarter.slnx" }
+  ]
+}

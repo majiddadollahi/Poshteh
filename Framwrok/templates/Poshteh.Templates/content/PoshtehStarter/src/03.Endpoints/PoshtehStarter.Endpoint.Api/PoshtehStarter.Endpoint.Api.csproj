@@ -1,0 +1,37 @@
+<!--#if (ModularMonolith) -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Poshteh.Endpoint.Api" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\PoshtehStarter.Core.ApplicationService\PoshtehStarter.Core.ApplicationService.csproj" />
+  </ItemGroup>
+
+</Project>
+<!--#else -->
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Poshteh.Endpoint.Api" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\PoshtehStarter.Core.ApplicationService\PoshtehStarter.Core.ApplicationService.csproj" />
+    <ProjectReference Include="..\..\02.Infra\PoshtehStarter.Infra.Data.Sql.Command\PoshtehStarter.Infra.Data.Sql.Command.csproj" />
+    <ProjectReference Include="..\..\02.Infra\PoshtehStarter.Infra.Data.Sql.Query\PoshtehStarter.Infra.Data.Sql.Query.csproj" />
+  </ItemGroup>
+
+</Project>
+<!--#endif -->
