@@ -3,6 +3,7 @@ name: Publish to NuGet
 on:
   push:
     tags: [ 'v*' ]          # مثلا v10.0.2
+  workflow_dispatch:        # دکمه‌ی Run workflow در تب Actions
 
 permissions:
   contents: read
@@ -27,10 +28,11 @@ jobs:
 
       # The version lives in the repo (Directory.Build.props + the template), not in the tag.
       # Fail fast if the tag, the packages and the template's framework version disagree.
+      # A manual run has no tag, so only the packages and the template are compared.
       - name: Verify version
         run: |
-          TAG="${GITHUB_REF_NAME#v}"
           PKG=$(grep -oP '<PoshtehVersion[^>]*>\K[^<]+' Directory.Build.props)
+          if [ "$GITHUB_REF_TYPE" = "tag" ]; then TAG="${GITHUB_REF_NAME#v}"; else TAG="$PKG"; fi
           TPL=$(grep -oP '<PoshtehFrameworkVersion>\K[^<]+' templates/Poshteh.Templates/content/PoshtehStarter/Directory.Packages.props)
           DEF=$(grep -oP '"defaultValue": "\K[0-9][^"]*' templates/Poshteh.Templates/content/PoshtehStarter/.template.config/template.json)
           echo "tag=$TAG packages=$PKG template=$TPL template.json=$DEF"
