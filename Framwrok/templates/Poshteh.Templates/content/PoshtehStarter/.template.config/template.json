@@ -30,8 +30,8 @@
     "FrameworkVersion": {
       "type": "parameter",
       "datatype": "string",
-      "defaultValue": "10.0.1",
-      "replaces": "10.0.1",
+      "defaultValue": "10.0.2",
+      "replaces": "10.0.2",
       "onlyIf": [ { "after": "<PoshtehFrameworkVersion>", "before": "</PoshtehFrameworkVersion>" } ],
       "displayName": "Poshteh framework version",
       "description": "Version of the Poshteh.* NuGet packages the generated application references (Directory.Packages.props)."

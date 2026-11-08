@@ -5,7 +5,7 @@
 ## پیش‌نیازها
 
 - .NET SDK `10.0.302` یا Patch بالاتر (طبق `global.json`)
-- دسترسی به Feedی که پکیج‌های `Poshteh.*` نسخه‌ی `10.0.1` را دارد. این پکیج‌ها روی nuget.org منتشر نشده‌اند. Feed را در [NuGet.config](NuGet.config) یا در NuGet.config سطح کاربر اضافه کنید.
+- دسترسی به Feedی که پکیج‌های `Poshteh.*` نسخه‌ی `10.0.2` را دارد. این پکیج‌ها روی nuget.org منتشر نشده‌اند. Feed را در [NuGet.config](NuGet.config) یا در NuGet.config سطح کاربر اضافه کنید.
 
 ## ساخت، تست و اجرا
 

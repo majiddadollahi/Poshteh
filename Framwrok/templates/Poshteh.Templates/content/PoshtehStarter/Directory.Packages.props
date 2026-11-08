@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
     <!-- Version of the Poshteh framework packages; keep all Poshteh.* packages on the same version. -->
-    <PoshtehFrameworkVersion>10.0.1</PoshtehFrameworkVersion>
+    <PoshtehFrameworkVersion>10.0.2</PoshtehFrameworkVersion>
     <!-- Lets the PackageVersion entries below override vulnerable transitive dependencies. -->
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>

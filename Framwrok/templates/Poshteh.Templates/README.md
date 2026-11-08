@@ -25,7 +25,7 @@ dotnet new poshteh -n Mahtab
 | مورد | نسخه / توضیح |
 |---|---|
 | .NET SDK | `10.0.302` یا Patch بالاتر (`rollForward: latestPatch`) |
-| پکیج‌های چارچوب | `Poshteh.Core.Domain`، `Poshteh.Core.Contract`، `Poshteh.Core.ApplicationService`، `Poshteh.Infra.Data.Sql.Command`، `Poshteh.Infra.Data.Sql.Query`، `Poshteh.Endpoint.Api` نسخه‌ی `10.0.1` |
+| پکیج‌های چارچوب | `Poshteh.Core.Domain`، `Poshteh.Core.Contract`، `Poshteh.Core.ApplicationService`، `Poshteh.Infra.Data.Sql.Command`، `Poshteh.Infra.Data.Sql.Query`، `Poshteh.Endpoint.Api` نسخه‌ی `10.0.2` |
 | Feed | پکیج‌های `Poshteh.*` روی nuget.org نیستند. Feed داخلی (پوشه یا URL) باید در دسترس باشد. |
 | nuget.org | برای EF Core، Swashbuckle، xUnit و وابستگی‌های گذرا |
 
@@ -43,11 +43,11 @@ dotnet new install "<repo>\Framwrok\templates\Poshteh.Templates\content\PoshtehS
 
 ```powershell
 # از فایل nupkg محلی
-dotnet new install "<path>\Poshteh.Templates.10.0.1.nupkg"
+dotnet new install "<path>\Poshteh.Templates.10.0.2.nupkg"
 
 # از Feed (پس از انتشار)
 dotnet new install Poshteh.Templates
-dotnet new install Poshteh.Templates::10.0.1 --add-source <feed>
+dotnet new install Poshteh.Templates::10.0.2 --add-source <feed>
 ```
 
 بررسی نصب:
@@ -82,7 +82,7 @@ dotnet run --project src/04.Host/Shop.Host.Web             # → http://localhos
 | `-o`, `--output` | `./<name>` | مسیر خروجی |
 | `--PoshtehFeed` | خالی | Feed پکیج‌های `Poshteh.*` (URL یا مسیر پوشه). اگر مقدار داشته باشد، در `NuGet.config` خروجی کنار nuget.org اضافه می‌شود. |
 | `-M`, `--ModularMonolith` | `false` | جزئیات در جدول زیر. |
-| `--FrameworkVersion` | `10.0.1` | نسخه‌ی پکیج‌های `Poshteh.*` (مقدار `PoshtehFrameworkVersion` در `Directory.Packages.props`) |
+| `--FrameworkVersion` | `10.0.2` | نسخه‌ی پکیج‌های `Poshteh.*` (مقدار `PoshtehFrameworkVersion` در `Directory.Packages.props`) |
 
 تفاوت خروجی با و بدون `--ModularMonolith`:
 
@@ -190,7 +190,7 @@ dotnet pack -c Release -o ./artifacts
 انتشار (فقط با مجوز صریح):
 
 ```powershell
-dotnet nuget push ./artifacts/Poshteh.Templates.10.0.1.nupkg --source <feed> --api-key <key>
+dotnet nuget push ./artifacts/Poshteh.Templates.10.0.2.nupkg --source <feed> --api-key <key>
 ```
 
 > پیش از انتشار قالب، پکیج‌های `Poshteh.*` هم‌نسخه باید در همان Feed منتشر شده باشند. در غیر این صورت Restore اپلیکیشن تولیدشده شکست می‌خورد.

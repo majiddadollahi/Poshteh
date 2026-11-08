@@ -1,0 +1,59 @@
+name: Publish to NuGet
+
+on:
+  push:
+    tags: [ 'v*' ]          # مثلا v10.0.2
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: nuget       # باید با Environment در Policy یکی باشد
+    permissions:
+      id-token: write        # بدون این، گیت‌هاب توکن OIDC صادر نمی‌کند
+      contents: read
+    defaults:
+      run:
+        working-directory: Framwrok
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: Framwrok/global.json
+
+      # The version lives in the repo (Directory.Build.props + the template), not in the tag.
+      # Fail fast if the tag, the packages and the template's framework version disagree.
+      - name: Verify version
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          PKG=$(grep -oP '<PoshtehVersion[^>]*>\K[^<]+' Directory.Build.props)
+          TPL=$(grep -oP '<PoshtehFrameworkVersion>\K[^<]+' templates/Poshteh.Templates/content/PoshtehStarter/Directory.Packages.props)
+          DEF=$(grep -oP '"defaultValue": "\K[0-9][^"]*' templates/Poshteh.Templates/content/PoshtehStarter/.template.config/template.json)
+          echo "tag=$TAG packages=$PKG template=$TPL template.json=$DEF"
+          if [ "$TAG" != "$PKG" ] || [ "$TAG" != "$TPL" ] || [ "$TAG" != "$DEF" ]; then
+            echo "::error::Version mismatch. Update Directory.Build.props and the template to $TAG, or fix the tag."
+            exit 1
+          fi
+
+      - name: Test
+        run: dotnet test Poshteh.slnx -c Release
+
+      - name: Build & pack
+        run: dotnet build Poshteh.slnx -c Release -p:PoshtehPackageOutputPath=${{ github.workspace }}/artifacts
+
+      - name: NuGet login (OIDC)
+        id: login
+        uses: NuGet/login@v1
+        with:
+          user: ${{ secrets.NUGET_USER }}
+
+      - name: Push
+        run: >
+          dotnet nuget push "${{ github.workspace }}/artifacts/*.nupkg"
+          --api-key ${{ steps.login.outputs.NUGET_API_KEY }}
+          --source https://api.nuget.org/v3/index.json
+          --skip-duplicate

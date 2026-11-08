@@ -4,7 +4,7 @@
 
 | مشخصه | مقدار |
 |---|---|
-| نسخه‌ی فعلی | `10.0.1` |
+| نسخه‌ی فعلی | `10.0.2` |
 | Target Framework | `net10.0` |
 | SDK | `10.0.302` (طبق [global.json](Framwrok/global.json)) |
 | ORM | Entity Framework Core 10 (SQL Server، PostgreSQL، و هر Provider رابطه‌ای دیگر) |
@@ -384,7 +384,7 @@ dotnet pack Poshteh.slnx -c Release
 ```
 
 - فقط پروژه‌هایی که `IsPackable=true` دارند (پروژه‌های `src/` به‌جز Hostها، و `Poshteh.Templates`) پکیج می‌شوند.
-- نسخه از `PoshtehVersion` خوانده می‌شود (پیش‌فرض `10.0.1`). برای تغییر آن: `dotnet pack -p:PoshtehVersion=10.0.2`.
+- نسخه از `PoshtehVersion` خوانده می‌شود (پیش‌فرض `10.0.2`). برای تغییر آن: `dotnet pack -p:PoshtehVersion=10.0.3`.
 - مسیر خروجی پکیج‌ها:
   - در Windows، اگر درایو `D:` وجود داشته باشد: `D:\NuGets`
   - در غیر این صورت: `Framwrok/artifacts/packages`
