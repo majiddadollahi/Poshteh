@@ -13,7 +13,7 @@
        explicitly. See ../docs/FRAMEWORK.md and ../docs/ARCHITECTURE.md from the workspace root. -->
   <PropertyGroup>
     <IsPackable>false</IsPackable>
-    <PoshtehVersion Condition="'$(PoshtehVersion)' == ''">10.0.2</PoshtehVersion>
+    <PoshtehVersion Condition="'$(PoshtehVersion)' == ''">10.0.3</PoshtehVersion>
     <Version>$(PoshtehVersion)</Version>
     <PackageVersion>$(PoshtehVersion)</PackageVersion>
     <AssemblyVersion>$(PoshtehVersion).0</AssemblyVersion>

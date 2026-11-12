@@ -24,6 +24,12 @@ public sealed class Error : IEquatable<Error>
         Args = args is { Length: > 0 } ? args : EmptyArgs;
     }
 
+    /// <summary>
+    /// Creates an error that carries only format arguments (no explicit message). Prefer this over
+    /// <c>new Error(code, arg)</c>, which would silently bind the first argument to <see cref="Message"/>.
+    /// </summary>
+    public static Error WithArgs(string code, params object[] args) => new(code, null, args);
+
     public bool Equals(Error? other) =>
         other is not null && string.Equals(Code, other.Code, StringComparison.Ordinal);
 

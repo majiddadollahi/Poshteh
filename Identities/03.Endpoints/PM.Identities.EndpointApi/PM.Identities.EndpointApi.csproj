@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Poshteh.Core.Domain" Version="10.0.1" />
+    <PackageReference Include="Poshteh.Shared.Kernel" Version="10.0.1" />
+    <PackageReference Include="Poshteh.Core.ApplicationService" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.13" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.13" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.19.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\PM.Identities.Core.ApplicationService\PM.Identities.Core.ApplicationService.csproj" />
+    <ProjectReference Include="..\..\01.Core\PM.Identities.Core.Contract\PM.Identities.Core.Contract.csproj" />
+    <ProjectReference Include="..\..\01.Core\PM.Identities.Core.Domain\PM.Identities.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\02.Infra\PM.Identities.Infra.DAL\PM.Identities.Infra.DAL.csproj" />
+    <ProjectReference Include="..\..\..\..\BuildingBlocks\BuildingBlocks.Web\BuildingBlocks.Web.csproj" />
+    <!-- BL-010: فقط برای فراخوانی CreateBuyerProfileCommand در گام ثبت‌نام خریدار (هماهنگی سطح Endpoint؛ Core این ماژول به Procurement وابسته نیست) -->
+    <ProjectReference Include="..\..\..\Procurement\01.Core\PM.Procurement.Core.ApplicationService\PM.Procurement.Core.ApplicationService.csproj" />
+    <!-- BL-038: فقط برای فراخوانی CreateCompanyCommand در گام ثبت‌نام تأمین‌کنندهٔ حقوقی (همان الگوی BL-010 برای Procurement؛ Core این ماژول به Vendor وابسته نیست) -->
+    <ProjectReference Include="..\..\..\Vendor\01.Core\PM.Vendor.Core.ApplicationService\PM.Vendor.Core.ApplicationService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Dependency-free Jalali (Persian) calendar display helpers. Storage and logic stay Gregorian/UTC.</Description>
+  </PropertyGroup>
+
+</Project>

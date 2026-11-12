@@ -24,9 +24,9 @@ dotnet new poshteh -n Mahtab
 
 | مورد | نسخه / توضیح |
 |---|---|
-| .NET SDK | `10.0.302` یا Patch بالاتر (`rollForward: latestPatch`) |
-| پکیج‌های چارچوب | `Poshteh.Core.Domain`، `Poshteh.Core.Contract`، `Poshteh.Core.ApplicationService`، `Poshteh.Infra.Data.Sql.Command`، `Poshteh.Infra.Data.Sql.Query`، `Poshteh.Endpoint.Api` نسخه‌ی `10.0.2` |
-| Feed | پکیج‌های `Poshteh.*` روی nuget.org نیستند. Feed داخلی (پوشه یا URL) باید در دسترس باشد. |
+| .NET SDK | `10.0.302` یا بالاتر از سری 10.0 (`rollForward: latestFeature`) |
+| پکیج‌های چارچوب | `Poshteh.Core.Domain`، `Poshteh.Core.Contract`، `Poshteh.Core.ApplicationService`، `Poshteh.Infra.Data.Sql.Command`، `Poshteh.Infra.Data.Sql.Query`، `Poshteh.Endpoint.Api` نسخه‌ی `10.0.3` |
+| Feed | پکیج‌های `Poshteh.*` روی nuget.org منتشر شده‌اند و Feed دیگری لازم نیست. `--PoshtehFeed` فقط برای تست پکیج‌های منتشرنشده است. |
 | nuget.org | برای EF Core، Swashbuckle، xUnit و وابستگی‌های گذرا |
 
 ---
@@ -43,11 +43,11 @@ dotnet new install "<repo>\Framwrok\templates\Poshteh.Templates\content\PoshtehS
 
 ```powershell
 # از فایل nupkg محلی
-dotnet new install "<path>\Poshteh.Templates.10.0.2.nupkg"
+dotnet new install "<path>\Poshteh.Templates.10.0.3.nupkg"
 
-# از Feed (پس از انتشار)
+# از nuget.org
 dotnet new install Poshteh.Templates
-dotnet new install Poshteh.Templates::10.0.2 --add-source <feed>
+dotnet new install Poshteh.Templates::10.0.3   # نسخه‌ی مشخص
 ```
 
 بررسی نصب:
@@ -63,13 +63,13 @@ dotnet new poshteh --help
 
 ```powershell
 # پیش‌فرض: بدون Host جدا؛ Endpoint.Api خودش اجرا می‌شود
-dotnet new poshteh -n Mahtab --PoshtehFeed "D:\NuGets"
+dotnet new poshteh -n Mahtab
 cd Mahtab
 dotnet test
 dotnet run --project src/03.Endpoints/Mahtab.Endpoint.Api   # → http://localhost:5080/swagger
 
 # Modular Monolith: راه‌اندازی در یک Host جدا؛ Endpoint.Api یک Library است
-dotnet new poshteh -n Shop --ModularMonolith --PoshtehFeed "D:\NuGets"
+dotnet new poshteh -n Shop --ModularMonolith
 cd Shop
 dotnet run --project src/04.Host/Shop.Host.Web             # → http://localhost:5080/swagger
 ```
@@ -82,7 +82,7 @@ dotnet run --project src/04.Host/Shop.Host.Web             # → http://localhos
 | `-o`, `--output` | `./<name>` | مسیر خروجی |
 | `--PoshtehFeed` | خالی | Feed پکیج‌های `Poshteh.*` (URL یا مسیر پوشه). اگر مقدار داشته باشد، در `NuGet.config` خروجی کنار nuget.org اضافه می‌شود. |
 | `-M`, `--ModularMonolith` | `false` | جزئیات در جدول زیر. |
-| `--FrameworkVersion` | `10.0.2` | نسخه‌ی پکیج‌های `Poshteh.*` (مقدار `PoshtehFrameworkVersion` در `Directory.Packages.props`) |
+| `--FrameworkVersion` | `10.0.3` | نسخه‌ی پکیج‌های `Poshteh.*` (مقدار `PoshtehFrameworkVersion` در `Directory.Packages.props`) |
 
 تفاوت خروجی با و بدون `--ModularMonolith`:
 
@@ -165,7 +165,7 @@ Mahtab/
 dotnet new update
 
 # نصب نسخه‌ی مشخص
-dotnet new install Poshteh.Templates::10.0.2
+dotnet new install Poshteh.Templates::10.0.3
 
 # حذف (با PackageId یا مسیر پوشه‌ای که نصب شده است)
 dotnet new uninstall Poshteh.Templates
@@ -183,14 +183,14 @@ dotnet pack -c Release -o ./artifacts
 
 - `PackageId`: `Poshteh.Templates`، `PackageType`: `Template`
 - نسخه و مسیر خروجی پیش‌فرض از `Framwrok/Directory.Build.props` خوانده می‌شود (`PoshtehVersion`، `PoshtehPackageOutputPath`). در نتیجه نسخه‌ی قالب همیشه با نسخه‌ی پکیج‌های چارچوب یکی است.
-  - تغییر نسخه: `dotnet pack -p:PoshtehVersion=10.0.2`
+  - تغییر نسخه: `dotnet pack -p:PoshtehVersion=10.0.4`
   - بدون `-o` و در صورت وجود درایو `D:`، خروجی در `D:\NuGets` قرار می‌گیرد.
 - فایل‌های `bin/`، `obj/`، `.vs/`، `*.user` و `*.db` داخل `content/` در پکیج قرار نمی‌گیرند.
 
 انتشار (فقط با مجوز صریح):
 
 ```powershell
-dotnet nuget push ./artifacts/Poshteh.Templates.10.0.2.nupkg --source <feed> --api-key <key>
+dotnet nuget push ./artifacts/Poshteh.Templates.10.0.3.nupkg --source <feed> --api-key <key>
 ```
 
 > پیش از انتشار قالب، پکیج‌های `Poshteh.*` هم‌نسخه باید در همان Feed منتشر شده باشند. در غیر این صورت Restore اپلیکیشن تولیدشده شکست می‌خورد.

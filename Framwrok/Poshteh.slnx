@@ -5,6 +5,7 @@
   </Folder>
   <Folder Name="/src/01.Core/">
     <Project Path="src/01.Core/Poshteh.Core.ApplicationService/Poshteh.Core.ApplicationService.csproj" />
+    <Project Path="src/01.Core/Poshteh.Core.Calendar/Poshteh.Core.Calendar.csproj" />
     <Project Path="src/01.Core/Poshteh.Core.Contract/Poshteh.Core.Contract.csproj" />
     <Project Path="src/01.Core/Poshteh.Core.Domain/Poshteh.Core.Domain.csproj" />
     <Project Path="src/01.Core/Poshteh.Core.ModuleKernel/Poshteh.Core.ModuleKernel.csproj" />

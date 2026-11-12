@@ -1,0 +1,55 @@
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Contract.deps.json
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Contract.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Contract.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.csproj.AssemblyReference.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.AssemblyInfoInputs.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.AssemblyInfo.cs
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.csproj.CoreCompileInputs.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Ident.19668F85.Up2Date
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\refint\PM.Identities.Core.Contract.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\ref\PM.Identities.Core.Contract.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\Poshteh.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\Poshteh.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Contract.deps.json
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Contract.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Contract.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\Poshteh.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\Poshteh.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.csproj.AssemblyReference.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.AssemblyInfoInputs.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.AssemblyInfo.cs
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.csproj.CoreCompileInputs.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.sourcelink.json
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Ident.19668F85.Up2Date
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\refint\PM.Identities.Core.Contract.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\ref\PM.Identities.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Contract.deps.json
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Contract.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.csproj.AssemblyReference.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.AssemblyInfoInputs.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.AssemblyInfo.cs
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.csproj.CoreCompileInputs.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.sourcelink.json
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Ident.19668F85.Up2Date
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\refint\PM.Identities.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\PM.Identities.Core.Contract.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\obj\Release\net10.0\ref\PM.Identities.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Vendor.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Vendor.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Vendor.Core.Contract.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Contract\bin\Release\net10.0\PM.Vendor.Core.Domain.pdb

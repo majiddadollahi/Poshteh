@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Logging;
 using Poshteh.Core.ApplicationService.Localization;
+using Poshteh.Core.ApplicationService.Validations;
 using Poshteh.Core.Domain;
 
 namespace Poshteh.Core.ApplicationService.Behaviors;
@@ -23,6 +24,12 @@ public sealed class ExceptionHandlingBehavior<TRequest, TResponse> : IPipelineBe
         try
         {
             return await next();
+        }
+        catch (ValidationException)
+        {
+            // Carries a list of client-facing message codes; the HTTP layer
+            // (LocalizationValidationExceptionFilter) owns turning it into a 400 response.
+            throw;
         }
         catch (DomainException domainException)
         {

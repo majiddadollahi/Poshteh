@@ -4,7 +4,7 @@
 
 | مشخصه | مقدار |
 |---|---|
-| نسخه‌ی فعلی | `10.0.2` |
+| نسخه‌ی فعلی | `10.0.3` |
 | Target Framework | `net10.0` |
 | SDK | `10.0.302` (طبق [global.json](Framwrok/global.json)) |
 | ORM | Entity Framework Core 10 (SQL Server، PostgreSQL، و هر Provider رابطه‌ای دیگر) |
@@ -36,7 +36,9 @@
 - **Domain Event Bus درون‌پردازشی** — پس از Commit موفق، رویدادها به `IDomainEventHandler<T>`ها ارسال می‌شوند (Best-effort؛ خطای Handler تراکنش را برنمی‌گرداند).
 - **جداسازی سمت نوشتن و خواندن** — `BaseCommandDbContext` / `CommandRepository<T>` در برابر `BaseQueryDbContext` / `ReadRepository<T>` (بدون Tracking).
 - **لایه‌ی HTTP یکدست** — تبدیل `Result` به `ProblemDetails` با کد وضعیت مناسب، `GlobalExceptionHandler` و `BaseController`.
-- **بومی‌سازی پیام‌ها** — مبتنی بر فایل‌های `.resx` با تفکیک مالکیت کلیدها بر اساس پیشوند (مثلاً `Order.`) و اعتبارسنجی پیکربندی در زمان راه‌اندازی.
+- **بومی‌سازی پیام‌ها** — مبتنی بر فایل‌های `.resx` با تفکیک مالکیت کلیدها بر اساس پیشوند (مثلاً `Order.`) و اعتبارسنجی پیکربندی در زمان راه‌اندازی؛ یا (از `10.0.3`) مبتنی بر فایل‌های **JSON** (`Localization/fa.json`) با تشخیص زبان از `Accept-Language`.
+- **پاسخ یکدست `ApiResponse`** — `BaseApiController` با شکل ثابت `{ success, message, code, errors, data }` و `ValidationException` با فیلتر بومی‌سازی‌شده‌ی خطاهای اعتبارسنجی.
+- **تقویم شمسی** — `Poshteh.Core.Calendar` برای نمایش تاریخ‌ها به شمسی (به وقت ایران)، بدون وابستگی.
 - **ابزارهای مشترک** — `IClock` و `ICorrelationContextAccessor` در `Shared.Kernel`.
 
 ---
@@ -54,6 +56,7 @@ Poshteh/
 │   │   ├── 01.Core/     Poshteh.Core.Domain
 │   │   │                Poshteh.Core.Contract
 │   │   │                Poshteh.Core.ApplicationService
+│   │   │                Poshteh.Core.Calendar
 │   │   │                Poshteh.Core.ModuleKernel
 │   │   ├── 02.Infra/    Poshteh.Infra.Data.Sql.Command
 │   │   │                Poshteh.Infra.Data.Sql.Query
@@ -77,11 +80,12 @@ Poshteh/
 | `Poshteh.Shared.Kernel` | ابزارهای بدون وابستگی: `IClock`، `CorrelationContext` |
 | `Poshteh.Core.Domain` | هسته‌ی مدل دامنه: `AggregateRoot`، `BaseEntity`، `ValueObject`، `Result`/`Error`، `IUnitOfWork`، `Specification` |
 | `Poshteh.Core.Contract` | پورت‌ها: `ICommandRepository<T>`، `IReadRepository<T>`، `IDomainEventDispatcher`، `IMessageLocalizer`، Outbox |
-| `Poshteh.Core.ApplicationService` | Dispatcherها، Pipeline Behaviorها، Event Bus درون‌پردازشی، بومی‌سازی |
+| `Poshteh.Core.ApplicationService` | Dispatcherها، Pipeline Behaviorها، Event Bus درون‌پردازشی، `ValidationException`، بومی‌سازی (resx و JSON) |
+| `Poshteh.Core.Calendar` | نمایش تاریخ شمسی: `JalaliCalendarService`، `JalaliDisplayFields` (بدون وابستگی) |
 | `Poshteh.Core.ModuleKernel` | قرارداد ثبت ماژول‌ها (در دست طراحی) |
 | `Poshteh.Infra.Data.Sql.Command` | آداپتور EF Core سمت نوشتن: `BaseCommandDbContext`، `CommandRepository<T>`، `UnitOfWork`، Outbox |
 | `Poshteh.Infra.Data.Sql.Query` | آداپتور EF Core سمت خواندن: `BaseQueryDbContext`، `ReadRepository<T>` |
-| `Poshteh.Endpoint.Api` | نگاشت `Result` به HTTP، `GlobalExceptionHandler`، `BaseController`، Request Localization |
+| `Poshteh.Endpoint.Api` | نگاشت `Result` به HTTP، `GlobalExceptionHandler`، `BaseController`، `BaseApiController`/`ApiResponse`، Request Localization و Request Culture |
 | `Poshteh.Host.Web` / `Poshteh.Host.Worker` | Composition Root نمونه برای وب و پردازش پس‌زمینه |
 | `Poshteh.Testing.Kit` | پایه‌ی Contract Test و پیاده‌سازی‌های In-memory (در دست طراحی) |
 
@@ -154,9 +158,9 @@ curl http://localhost:5080/orders/1
 با `--ModularMonolith` راه‌اندازی برنامه به پروژه‌ی جدای Host.Web منتقل می‌شود:
 
 ```powershell
-dotnet new install Framwrok/templates/Poshteh.Templates/content/PoshtehStarter
-dotnet new poshteh -n Mahtab --PoshtehFeed "D:\NuGets"                    # Endpoint.Api خودش اجرا می‌شود
-dotnet new poshteh -n Shop --ModularMonolith --PoshtehFeed "D:\NuGets"    # Host.Web جدا
+dotnet new install Poshteh.Templates
+dotnet new poshteh -n Mahtab                    # Endpoint.Api خودش اجرا می‌شود
+dotnet new poshteh -n Shop --ModularMonolith    # Host.Web جدا
 ```
 
 جزئیات پارامترها، بسته‌بندی و نگهداری قالب در [Poshteh.Templates/README.md](Framwrok/templates/Poshteh.Templates/README.md) آمده است.
@@ -332,6 +336,110 @@ app.UsePoshtehRequestLocalization(); // پیکربندی را هنگام شرو�
 | `Validation` یا `DomainException` | `422 Unprocessable Entity` |
 | سایر موارد | `400 Bad Request` |
 
+### ۸. بومی‌سازی با فایل‌های JSON
+
+جایگزینی برای `.resx`: پیام‌ها در فایل‌های تخت `code → message` نگهداری می‌شوند.
+
+```jsonc
+// Localization/fa.json  (کامنت و ویرگول انتهایی مجاز است؛ کلیدها حساس به حروف کوچک/بزرگ‌اند)
+{
+  "Common.Saved": "ذخیره شد",
+  "Order.NotFound": "سفارش {0} یافت نشد",
+  "Identity.PasswordInvalid": "رمز عبور نامعتبر است: {0}",
+  "Identity.PasswordTooShort": "رمز عبور کوتاه است",
+}
+```
+
+```jsonc
+// appsettings.json — همه‌ی مقادیر اختیاری‌اند (این‌ها پیش‌فرض‌ها هستند)
+"Localization": {
+  "ResourcesPath": "Localization",       // نسبت به ContentRootPath یا مسیر مطلق
+  "DefaultCulture": "fa",
+  "SupportedCultures": [ "fa", "en" ]    // فایل هر کدام باید وجود داشته باشد
+}
+```
+
+```csharp
+builder.Services.AddEndpointApi();
+builder.Services.AddPoshtehJsonLocalization(builder.Configuration, builder.Environment);
+builder.Services.AddControllers(o => o.Filters.Add<LocalizationValidationExceptionFilter>());
+
+var app = builder.Build();
+app.UsePoshtehRequestCulture();   // پیش از هر چیزی که پیام بومی‌سازی می‌کند
+```
+
+- `AddPoshtehJsonLocalization` فایل‌ها را **همان لحظه** بارگذاری و اعتبارسنجی می‌کند: نبودن پوشه `DirectoryNotFoundException`، نبودن فایل یکی از `SupportedCultures` خطای `FileNotFoundException` و نبودن `DefaultCulture` خطای `InvalidOperationException` می‌دهد. هر فایل `*.json` دیگری در پوشه هم به‌عنوان یک زبان جدید بارگذاری می‌شود.
+- `JsonMessageLocalizer` هم `IJsonMessageLocalizer` است و هم جایگزین `IMessageLocalizer` می‌شود، پس `ToApiResult` و `GlobalExceptionHandler` هم از همین فایل‌ها می‌خوانند.
+- Middleware زبان را یک بار در هر درخواست از `Accept-Language` (به ترتیب سرآیند و بدون توجه به `q`) تعیین می‌کند، در `HttpContext.Items["Poshteh.RequestCulture"]` قرار می‌دهد و `CultureInfo.CurrentCulture/CurrentUICulture` را تنظیم می‌کند. `fa-IR` به `fa` نرمال می‌شود.
+- ترتیب جست‌وجو: زبان درخواست ← `DefaultCulture` ← هر زبانی که کلید را دارد.
+- در Worker یا Job پس‌زمینه از `AddPoshtehJsonLocalizationCore(configuration, environment)` (در `Poshteh.Core.ApplicationService`) و `GetForCulture` استفاده کنید؛ در این حالت زبان پیش‌فرض همیشه `DefaultCulture` است.
+
+متدهای `IJsonMessageLocalizer`:
+
+| متد | رفتار |
+|---|---|
+| `Get(code)` | ترجمه در زبان درخواست؛ کد خالی ← `""`؛ نبودن ترجمه ← خود کد |
+| `Get(code, args)` | `string.Format(InvariantCulture, …)`؛ نبودن ترجمه ← `code\|arg1\|arg2`؛ قالب نامعتبر ← متن خام |
+| `Get(Error)` | اگر **همه‌ی** آرگومان‌ها رشته باشند، هر کدام به‌عنوان کد پیام ترجمه (یا همان‌طور نگه داشته) و با `"؛ "` (فارسی) یا `"; "` در یک `{0}` قرار می‌گیرند |
+| `GetForCulture(culture, code, args)` | مانند `Get` با زبان صریح |
+
+برای خطایی که فقط آرگومان دارد از `Error.WithArgs("Identity.PasswordInvalid", "Identity.PasswordTooShort")` استفاده کنید؛ `new Error(code, arg)` آرگومان را در `Message` می‌گذارد.
+
+### ۹. `BaseApiController` و `ApiResponse`
+
+`BaseApiController` (جدا از `BaseController` و بدون نیاز به Dispatcher) همه‌ی پاسخ‌ها را در قالب زیر برمی‌گرداند. Localizer از `HttpContext.RequestServices` گرفته می‌شود، پس Constructor کنترلر شما آزاد است.
+
+```json
+{ "success": false, "message": "سفارش 7 یافت نشد", "code": "Order.NotFound",
+  "errors": [ { "code": "Order.NotFound", "message": "سفارش 7 یافت نشد" } ], "data": null }
+```
+
+```csharp
+public sealed class OrdersController(IOrderService orders) : BaseApiController
+{
+    [HttpGet("{id}")]
+    public async Task<IActionResult> Get(long id) => HandleResult(await orders.GetAsync(id));
+
+    [HttpPost]
+    public async Task<IActionResult> Create(CreateOrder input) => HandleResult(await orders.CreateAsync(input), "Common.Saved");
+}
+```
+
+`HandleResult`، `OkResponse`، `FailResponse` و `FailFromError` در دسترس‌اند. وضعیت HTTP خطا از روی `Error.Code` تعیین می‌شود (زیررشته، حساس به حروف، به همین ترتیب):
+
+| کد خطا شامل… | وضعیت HTTP |
+|---|---|
+| `NotFound` | `404` |
+| `Unauthorized` یا `InvalidCredentials` | `401` |
+| `Forbidden` یا `AccessDenied` | `403` |
+| `Conflict` یا `AlreadyExists` | `409` |
+| سایر موارد | `400` |
+
+> این نگاشت فقط مربوط به `BaseApiController` است و نگاشت `ToApiResult` (جدول بالا) تغییری نکرده است.
+
+### ۱۰. `ValidationException`
+
+```csharp
+var errors = new List<ValidationError>();
+if (string.IsNullOrWhiteSpace(input.Title)) errors.Add(new("Title", "Work.Task.TitleRequired"));
+errors.ThrowIfIsInvalid();
+```
+
+`ErrorMessage` یک **کد پیام** است. `LocalizationValidationExceptionFilter` آن را به پاسخ `400` با `ApiResponse` تبدیل می‌کند (کد خالی ← `Validation.Failed`؛ `code`/`message` سطح بالا از اولین خطا). `ExceptionHandlingBehavior` این Exception را نمی‌بلعد و دوباره پرتاب می‌کند تا به فیلتر برسد. این ابزار از `IValidator<T>`/`ValidationBehavior` (که `Result` برمی‌گرداند) جداست.
+
+### ۱۱. تقویم شمسی (`Poshteh.Core.Calendar`)
+
+فقط برای نمایش؛ ذخیره‌سازی و منطق همچنان میلادی/UTC است.
+
+```csharp
+JalaliCalendarService.FormatDate(new DateOnly(2024, 3, 20));                    // "1403/01/01" (بدون تبدیل منطقه‌ی زمانی)
+JalaliCalendarService.FormatDateTime(new DateTime(2025, 1, 15, 21, 0, 0, DateTimeKind.Utc)); // "1403/10/27 00:30"
+JalaliCalendarService.FormatDateTimeWithSeconds(createdAtUtc);                  // "yyyy/MM/dd HH:mm:ss"
+JalaliDisplayFields.PropertyNameFor("CreatedAt");                              // "CreatedAtJalali"
+```
+
+`DateTime` با `Kind=Unspecified` به‌عنوان UTC در نظر گرفته می‌شود و سپس به وقت ایران (`Iran Standard Time` / `Asia/Tehran`، در نبود آن ‎+03:30) تبدیل می‌شود. ورودی `null` خروجی `null` دارد.
+
 ---
 
 ## جریان یک Command
@@ -384,7 +492,7 @@ dotnet pack Poshteh.slnx -c Release
 ```
 
 - فقط پروژه‌هایی که `IsPackable=true` دارند (پروژه‌های `src/` به‌جز Hostها، و `Poshteh.Templates`) پکیج می‌شوند.
-- نسخه از `PoshtehVersion` خوانده می‌شود (پیش‌فرض `10.0.2`). برای تغییر آن: `dotnet pack -p:PoshtehVersion=10.0.3`.
+- نسخه از `PoshtehVersion` خوانده می‌شود (پیش‌فرض `10.0.3`). برای تغییر آن: `dotnet pack -p:PoshtehVersion=10.0.4`.
 - مسیر خروجی پکیج‌ها:
   - در Windows، اگر درایو `D:` وجود داشته باشد: `D:\NuGets`
   - در غیر این صورت: `Framwrok/artifacts/packages`
@@ -400,7 +508,7 @@ dotnet pack Poshteh.slnx -c Release
 | Infra (Command / Query) | ✅ پیاده‌سازی شده |
 | Endpoint.Api | ✅ پیاده‌سازی شده |
 | نمونه‌ی Ordering | ✅ قابل اجرا (SQLite) |
-| Unit Test | 🟡 فقط `Core.ApplicationService` (بومی‌سازی و مدیریت Exception) |
+| Unit Test | 🟡 یک پروژه (`Poshteh.Core.ApplicationService.Tests`): بومی‌سازی resx/JSON، مدیریت Exception، `ValidationException`، `BaseApiController`/`ApiResponse`، Middleware زبان و تقویم شمسی |
 | ارسال Outbox توسط Worker پس‌زمینه | ⏳ پیاده‌سازی نشده؛ `Host.Worker` فعلاً فقط جایگاه است |
 | `Core.ModuleKernel` / `Testing.Kit` | ⏳ فقط پروژه‌ی خالی |
 | Architecture / Contract / Integration Tests | ⏳ رزرو شده |

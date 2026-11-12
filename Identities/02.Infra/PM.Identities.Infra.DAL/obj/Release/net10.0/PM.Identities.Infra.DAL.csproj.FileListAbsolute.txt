@@ -1,0 +1,59 @@
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.deps.json
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.runtimeconfig.json
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.csproj.AssemblyReference.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.AssemblyInfoInputs.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.AssemblyInfo.cs
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.csproj.CoreCompileInputs.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Ident.064D6D7A.Up2Date
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\refint\PM.Identities.Infra.DAL.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.genruntimeconfig.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\ref\PM.Identities.Infra.DAL.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\Poshteh.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\Poshteh.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.deps.json
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.runtimeconfig.json
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\Poshteh.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\Poshteh.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.csproj.AssemblyReference.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.AssemblyInfoInputs.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.AssemblyInfo.cs
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.csproj.CoreCompileInputs.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.sourcelink.json
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Ident.064D6D7A.Up2Date
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\refint\PM.Identities.Infra.DAL.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.genruntimeconfig.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\ref\PM.Identities.Infra.DAL.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.deps.json
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.runtimeconfig.json
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Infra.DAL.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.csproj.AssemblyReference.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.AssemblyInfoInputs.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.AssemblyInfo.cs
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.csproj.CoreCompileInputs.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.sourcelink.json
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Ident.064D6D7A.Up2Date
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\refint\PM.Identities.Infra.DAL.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\PM.Identities.Infra.DAL.genruntimeconfig.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\obj\Release\net10.0\ref\PM.Identities.Infra.DAL.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\BuildingBlocks.Data.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\02.Infra\PM.Identities.Infra.DAL\bin\Release\net10.0\BuildingBlocks.Data.pdb

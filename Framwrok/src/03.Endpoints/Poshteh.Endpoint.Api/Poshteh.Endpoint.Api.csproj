@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <IsPackable>true</IsPackable>
-    <Description>Poshteh's HTTP adapter helpers: Result-to-HTTP mapping and the global exception handler.</Description>
+    <Description>Poshteh's HTTP adapter helpers: Result-to-HTTP mapping, the global exception handler, the ApiResponse envelope with BaseApiController, and request-culture middleware for JSON localization.</Description>
   </PropertyGroup>
 
   <ItemGroup>

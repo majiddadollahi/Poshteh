@@ -1,0 +1,44 @@
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\PM.Identities.Core.Domain.deps.json
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.csproj.AssemblyReference.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.AssemblyInfoInputs.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.AssemblyInfo.cs
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.csproj.CoreCompileInputs.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\refint\PM.Identities.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\ref\PM.Identities.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\Poshteh.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\Poshteh.Core.Domain.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Ident.1F5ADA4D.Up2Date
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\PM.Identities.Core.Domain.deps.json
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\Poshteh.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\Poshteh.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.csproj.AssemblyReference.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.AssemblyInfoInputs.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.AssemblyInfo.cs
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.csproj.CoreCompileInputs.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.sourcelink.json
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Ident.1F5ADA4D.Up2Date
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\refint\PM.Identities.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\ref\PM.Identities.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\PM.Identities.Core.Domain.deps.json
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.csproj.AssemblyReference.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.AssemblyInfoInputs.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.AssemblyInfo.cs
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.csproj.CoreCompileInputs.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.sourcelink.json
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\refint\PM.Identities.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\PM.Identities.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\01.Core\PM.Identities.Core.Domain\obj\Release\net10.0\ref\PM.Identities.Core.Domain.dll

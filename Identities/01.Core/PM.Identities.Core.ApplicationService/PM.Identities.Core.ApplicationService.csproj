@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Poshteh.Core.Domain" Version="10.0.1" />
+    <PackageReference Include="Poshteh.Core.ApplicationService" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.13" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.19.1" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../../Procurement/01.Core/PM.Procurement.Core.Contract/PM.Procurement.Core.Contract.csproj" />
+    <ProjectReference Include="../../../Vendor/01.Core/PM.Vendor.Core.Contract/PM.Vendor.Core.Contract.csproj" />
+    <ProjectReference Include="../../../Platform/01.Core/PM.Platform.Core.Contract/PM.Platform.Core.Contract.csproj" />
+    <ProjectReference Include="..\PM.Identities.Core.Contract\PM.Identities.Core.Contract.csproj" />
+    <ProjectReference Include="..\PM.Identities.Core.Domain\PM.Identities.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\02.Infra\PM.Identities.Infra.DAL\PM.Identities.Infra.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

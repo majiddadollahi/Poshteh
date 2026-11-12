@@ -1,0 +1,135 @@
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.EndpointApi.deps.json
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.EndpointApi.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.EndpointApi.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\BuildingBlocks.Web.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.ApplicationService.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Contract.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Infra.DAL.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.ApplicationService.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Contract.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Infra.DAL.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\BuildingBlocks.Web.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.csproj.AssemblyReference.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.AssemblyInfoInputs.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.AssemblyInfo.cs
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.csproj.CoreCompileInputs.cache
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Ident.5DF28B3E.Up2Date
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\refint\PM.Identities.EndpointApi.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\ref\PM.Identities.EndpointApi.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.ApplicationService.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Contract.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.ApplicationService.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.Contract.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.Domain.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Shared.Kernel.dll
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.ApplicationService.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Contract.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Domain.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.Domain.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Shared.Kernel.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.ApplicationService.pdb
+D:\1404 Project\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.Contract.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.EndpointApi.deps.json
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.EndpointApi.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.EndpointApi.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\BuildingBlocks.Web.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.ApplicationService.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Contract.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Infra.DAL.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.ApplicationService.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Contract.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.ApplicationService.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.Contract.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.ApplicationService.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.Contract.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Shared.Kernel.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.ApplicationService.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Contract.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Infra.DAL.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\BuildingBlocks.Web.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.ApplicationService.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.ApplicationService.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Contract.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.Contract.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Shared.Kernel.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.ApplicationService.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\Poshteh.Core.Contract.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.csproj.AssemblyReference.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.AssemblyInfoInputs.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.AssemblyInfo.cs
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.csproj.CoreCompileInputs.cache
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.sourcelink.json
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Ident.5DF28B3E.Up2Date
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\refint\PM.Identities.EndpointApi.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\ref\PM.Identities.EndpointApi.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Catalogs.Core.Contract.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Catalogs.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Catalogs.Core.Contract.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Catalogs.Core.Domain.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Platform.Core.Contract.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Platform.Core.Domain.dll
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Platform.Core.Contract.pdb
+D:\1404\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Platform.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.EndpointApi.deps.json
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.EndpointApi.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.EndpointApi.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\BuildingBlocks.Web.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Catalogs.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Catalogs.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.ApplicationService.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Infra.DAL.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Platform.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Platform.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.ApplicationService.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.ApplicationService.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.Contract.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.Domain.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.ApplicationService.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Contract.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Identities.Infra.DAL.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\BuildingBlocks.Web.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.ApplicationService.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.ApplicationService.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Catalogs.Core.Contract.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Catalogs.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Platform.Core.Contract.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Platform.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Contract.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Procurement.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.Contract.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\PM.Vendor.Core.Domain.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.csproj.AssemblyReference.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.AssemblyInfoInputs.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.AssemblyInfo.cs
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.csproj.CoreCompileInputs.cache
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.sourcelink.json
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Ident.5DF28B3E.Up2Date
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\refint\PM.Identities.EndpointApi.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\PM.Identities.EndpointApi.pdb
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\obj\Release\net10.0\ref\PM.Identities.EndpointApi.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\BuildingBlocks.Data.dll
+E:\140506 Projects\PM\Develop02\ProcurementMarketplace\ProcurementMarketplaceServer\src\Modules\Identities\03.Endpoints\PM.Identities.EndpointApi\bin\Release\net10.0\BuildingBlocks.Data.pdb

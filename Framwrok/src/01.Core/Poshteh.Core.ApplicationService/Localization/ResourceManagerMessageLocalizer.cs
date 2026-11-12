@@ -221,12 +221,5 @@ internal sealed class ResourceManagerMessageLocalizer : IMessageLocalizer
     }
 
     private static bool IsSafeExplicitMessage(string key, string? message) =>
-        !string.IsNullOrWhiteSpace(message) &&
-        !string.Equals(key, message, StringComparison.Ordinal) &&
-        !LooksLikeMessageKey(message);
-
-    private static bool LooksLikeMessageKey(string value) =>
-        value.Contains('.', StringComparison.Ordinal) &&
-        !value.Any(char.IsWhiteSpace) &&
-        value.All(character => char.IsLetterOrDigit(character) || character is '.' or '_' or '-');
+        ExplicitMessageSafety.IsSafe(key, message);
 }

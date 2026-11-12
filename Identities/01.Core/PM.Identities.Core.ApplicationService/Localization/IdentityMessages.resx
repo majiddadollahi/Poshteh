@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Identity.UserNameAlreadyExists" xml:space="preserve"><value>این نام کاربری قبلاً ثبت شده است.</value></data>
+  <data name="Identity.IdentifierAlreadyExists" xml:space="preserve"><value>این شناسه قبلاً به یک حساب اختصاص یافته است.</value></data>
+  <data name="Identity.LegalNationalIdAlreadyExists" xml:space="preserve"><value>شناسه ملی سازمان قبلاً ثبت شده است.</value></data>
+  <data name="Identity.InvalidCredentials" xml:space="preserve"><value>نام کاربری یا رمز عبور صحیح نیست.</value></data>
+  <data name="Identity.UserNotFound" xml:space="preserve"><value>کاربر مورد نظر یافت نشد.</value></data>
+  <data name="Identity.UserCreationFailed" xml:space="preserve"><value>ایجاد حساب کاربری انجام نشد.</value></data>
+  <data name="Identity.PasswordRequiresDigit" xml:space="preserve"><value>رمز عبور باید حداقل یک رقم داشته باشد.</value></data>
+  <data name="Identity.PasswordRequiresLower" xml:space="preserve"><value>رمز عبور باید حداقل یک حرف کوچک انگلیسی داشته باشد.</value></data>
+  <data name="Identity.PasswordRequiresUpper" xml:space="preserve"><value>رمز عبور باید حداقل یک حرف بزرگ انگلیسی داشته باشد.</value></data>
+  <data name="Identity.PasswordTooShort" xml:space="preserve"><value>رمز عبور باید حداقل ۶ کاراکتر باشد.</value></data>
+  <data name="Identity.PasswordResetFailed" xml:space="preserve"><value>بازنشانی رمز عبور انجام نشد. رمز عبور باید حداقل ۶ کاراکتر و شامل حرف بزرگ، حرف کوچک و عدد باشد.</value></data>
+  <data name="Identity.UserInactive" xml:space="preserve"><value>حساب کاربری غیرفعال است.</value></data>
+  <data name="Identity.InvalidPassword" xml:space="preserve"><value>رمز عبور صحیح نیست.</value></data>
+  <data name="Identity.PasswordMismatch" xml:space="preserve"><value>رمز عبور با تکرار آن مطابقت ندارد.</value></data>
+  <data name="Identity.InvalidToken" xml:space="preserve"><value>توکن معتبر نیست.</value></data>
+  <data name="Identity.TokenExpired" xml:space="preserve"><value>توکن منقضی شده است.</value></data>
+  <data name="Identity.RefreshTokenNotFound" xml:space="preserve"><value>نشست ورود یافت نشد یا منقضی شده است. لطفاً دوباره وارد شوید.</value></data>
+  <data name="Identity.RefreshTokenRevoked" xml:space="preserve"><value>این نشست ورود باطل شده است. لطفاً دوباره وارد شوید.</value></data>
+  <data name="Identity.RoleNotFound" xml:space="preserve"><value>نقش مورد نظر یافت نشد.</value></data>
+  <data name="Identity.RoleAlreadyExists" xml:space="preserve"><value>این نام نقش قبلاً ثبت شده است.</value></data>
+  <data name="Identity.SystemRoleCannotBeModified" xml:space="preserve"><value>نقش سیستمی قابل ویرایش نیست.</value></data>
+  <data name="Identity.SystemRoleCannotBeDeleted" xml:space="preserve"><value>نقش سیستمی قابل حذف نیست.</value></data>
+  <data name="Identity.SystemRoleCannotBeDeactivated" xml:space="preserve"><value>نقش سیستمی قابل غیرفعال‌سازی نیست.</value></data>
+  <data name="Identity.RoleAlreadyActive" xml:space="preserve"><value>این نقش هم‌اکنون فعال است.</value></data>
+  <data name="Identity.RoleAlreadyInactive" xml:space="preserve"><value>این نقش هم‌اکنون غیرفعال است.</value></data>
+  <data name="Identity.RoleInactive" xml:space="preserve"><value>این نقش غیرفعال است.</value></data>
+  <data name="Identity.AccessNotFound" xml:space="preserve"><value>دسترسی مورد نظر یافت نشد.</value></data>
+  <data name="Identity.AccessAlreadyExists" xml:space="preserve"><value>این کلید دسترسی قبلاً ثبت شده است.</value></data>
+  <data name="Identity.FeatureNotFound" xml:space="preserve"><value>فیچر مورد نظر یافت نشد.</value></data>
+  <data name="Identity.FeatureAlreadyExists" xml:space="preserve"><value>این کلید فیچر قبلاً ثبت شده است.</value></data>
+  <data name="Identity.FeatureParentInvalid" xml:space="preserve"><value>فیچر والد معتبر نیست.</value></data>
+  <data name="Identity.EmailNotConfirmed" xml:space="preserve"><value>ایمیل هنوز تأیید نشده است.</value></data>
+  <data name="Identity.EmailAlreadyExists" xml:space="preserve"><value>این ایمیل قبلاً ثبت شده است.</value></data>
+  <data name="Identity.UserAlreadyExists" xml:space="preserve"><value>این کاربر قبلاً ثبت شده است.</value></data>
+  <data name="Identity.NotImplemented" xml:space="preserve"><value>این قابلیت هنوز پیاده‌سازی نشده است.</value></data>
+  <data name="Identity.UserUpdateFailed" xml:space="preserve"><value>به‌روزرسانی حساب کاربری انجام نشد.</value></data>
+  <data name="Identity.UserDeleteFailed" xml:space="preserve"><value>حذف حساب کاربری انجام نشد.</value></data>
+  <data name="Identity.PasswordChangeFailed" xml:space="preserve"><value>تغییر رمز عبور انجام نشد.</value></data>
+  <data name="Identity.UserActivationFailed" xml:space="preserve"><value>فعال‌سازی حساب کاربری انجام نشد.</value></data>
+  <data name="Identity.UserDeactivationFailed" xml:space="preserve"><value>غیرفعال‌سازی حساب کاربری انجام نشد.</value></data>
+  <data name="Identity.RoleCreationFailed" xml:space="preserve"><value>ایجاد نقش انجام نشد.</value></data>
+  <data name="Identity.RoleUpdateFailed" xml:space="preserve"><value>به‌روزرسانی نقش انجام نشد.</value></data>
+  <data name="Identity.RoleDeleteFailed" xml:space="preserve"><value>حذف نقش انجام نشد.</value></data>
+  <data name="Identity.RoleActivationFailed" xml:space="preserve"><value>فعال‌سازی نقش انجام نشد.</value></data>
+  <data name="Identity.RoleDeactivationFailed" xml:space="preserve"><value>غیرفعال‌سازی نقش انجام نشد.</value></data>
+  <data name="Identity.AddUserToRoleFailed" xml:space="preserve"><value>افزودن کاربر به نقش انجام نشد.</value></data>
+  <data name="Identity.RemoveUserFromRoleFailed" xml:space="preserve"><value>حذف کاربر از نقش انجام نشد.</value></data>
+  <data name="Identity.AddClaimToRoleFailed" xml:space="preserve"><value>افزودن دسترسی به نقش انجام نشد.</value></data>
+  <data name="Identity.RemoveClaimFromRoleFailed" xml:space="preserve"><value>حذف دسترسی از نقش انجام نشد.</value></data>
+  <data name="Identity.IdentifierRequired" xml:space="preserve"><value>وارد کردن شناسه الزامی است.</value></data>
+  <data name="Identity.EmailRequired" xml:space="preserve"><value>وارد کردن ایمیل الزامی است.</value></data>
+  <data name="Identity.PasswordRequired" xml:space="preserve"><value>وارد کردن رمز عبور الزامی است.</value></data>
+  <data name="Identity.VendorReviewStatusConflict" xml:space="preserve"><value>وضعیت بررسی تأمین‌کننده تغییر کرده است. صفحه را تازه‌سازی و دوباره تلاش کنید.</value></data>
+  <data name="Identity.VendorCorrectionReasonRequired" xml:space="preserve"><value>وارد کردن دلیل اصلاح الزامی است.</value></data>
+  <data name="Identity.VendorCorrectionReasonTooLong" xml:space="preserve"><value>طول دلیل اصلاح نباید بیشتر از ۱۰۰۰ نویسه باشد.</value></data>
+  <data name="Identity.PasswordRequiresNonAlphanumeric" xml:space="preserve"><value>رمز عبور باید حداقل یک نویسهٔ غیرالفبایی-عددی داشته باشد.</value></data>
+  <data name="Identity.PasswordRequiresUniqueChars" xml:space="preserve"><value>رمز عبور باید از نویسه‌های متنوع‌تری تشکیل شده باشد.</value></data>
+  <data name="Identity.DuplicateUserName" xml:space="preserve"><value>این نام کاربری قبلاً استفاده شده است.</value></data>
+  <data name="Identity.DuplicateEmail" xml:space="preserve"><value>این ایمیل قبلاً استفاده شده است.</value></data>
+  <data name="Identity.InvalidUserName" xml:space="preserve"><value>نام کاربری معتبر نیست.</value></data>
+  <data name="Identity.InvalidEmail" xml:space="preserve"><value>ایمیل معتبر نیست.</value></data>
+  <data name="Identity.LoginAlreadyAssociated" xml:space="preserve"><value>این حساب ورود قبلاً به کاربر دیگری متصل شده است.</value></data>
+  <data name="Identity.UserAlreadyHasPassword" xml:space="preserve"><value>این کاربر قبلاً رمز عبور تعیین کرده است.</value></data>
+  <data name="Identity.UserLockoutNotEnabled" xml:space="preserve"><value>قفل‌شدن حساب برای این کاربر فعال نیست.</value></data>
+  <data name="Identity.UserAlreadyInRole" xml:space="preserve"><value>کاربر قبلاً در این نقش قرار دارد.</value></data>
+  <data name="Identity.UserNotInRole" xml:space="preserve"><value>کاربر در این نقش قرار ندارد.</value></data>
+  <data name="Identity.UnknownIdentityError" xml:space="preserve"><value>خطای نامشخصی در عملیات هویتی رخ داد.</value></data>
+  <data name="Identity.InvalidAccountType" xml:space="preserve"><value>نوع حساب معتبر نیست.</value></data>
+  <data name="Identity.InvalidManagedAccountType" xml:space="preserve"><value>از مسیر مدیریت کاربران فقط حساب PanelAdmin یا PanelUser قابل ایجاد است.</value></data>
+  <data name="Identity.RegistrationIdentifierAlreadyExists" xml:space="preserve"><value>نام کاربری یا شناسه ملی قبلاً ثبت شده است.</value></data>
+  <data name="Identity.Access.Created" xml:space="preserve"><value>دسترسی با موفقیت ایجاد شد.</value></data>
+  <data name="Identity.Access.Deleted" xml:space="preserve"><value>دسترسی با موفقیت حذف شد.</value></data>
+  <data name="Identity.Access.Updated" xml:space="preserve"><value>دسترسی با موفقیت به‌روزرسانی شد.</value></data>
+  <data name="Identity.Feature.Created" xml:space="preserve"><value>فیچر با موفقیت ایجاد شد.</value></data>
+  <data name="Identity.Feature.Deleted" xml:space="preserve"><value>فیچر با موفقیت حذف شد.</value></data>
+  <data name="Identity.Feature.Updated" xml:space="preserve"><value>فیچر با موفقیت به‌روزرسانی شد.</value></data>
+  <data name="Identity.FeatureAccess.Updated" xml:space="preserve"><value>منابع فیچر با موفقیت ذخیره شد.</value></data>
+  <data name="Identity.Role.FeatureAdded" xml:space="preserve"><value>فیچر با موفقیت به نقش اضافه شد.</value></data>
+  <data name="Identity.Role.FeatureRemoved" xml:space="preserve"><value>فیچر با موفقیت از نقش حذف شد.</value></data>
+  <data name="Identity.Role.FeatureTreeAdded" xml:space="preserve"><value>درخت فیچر با موفقیت به نقش اضافه شد.</value></data>
+  <data name="Identity.Role.FeatureTreeRemoved" xml:space="preserve"><value>درخت فیچر با موفقیت از نقش حذف شد.</value></data>
+  <data name="Identity.Role.Activated" xml:space="preserve"><value>نقش با موفقیت فعال شد.</value></data>
+  <data name="Identity.Role.Created" xml:space="preserve"><value>نقش با موفقیت ایجاد شد.</value></data>
+  <data name="Identity.Role.Deactivated" xml:space="preserve"><value>نقش با موفقیت غیرفعال شد.</value></data>
+  <data name="Identity.Role.Deleted" xml:space="preserve"><value>نقش با موفقیت حذف شد.</value></data>
+  <data name="Identity.Role.Updated" xml:space="preserve"><value>نقش با موفقیت به‌روزرسانی شد.</value></data>
+  <data name="Identity.Role.UserAdded" xml:space="preserve"><value>کاربر با موفقیت به نقش اضافه شد.</value></data>
+  <data name="Identity.Role.UserRemoved" xml:space="preserve"><value>کاربر با موفقیت از نقش حذف شد.</value></data>
+  <data name="Identity.User.Activated" xml:space="preserve"><value>کاربر با موفقیت فعال شد.</value></data>
+  <data name="Identity.User.Created" xml:space="preserve"><value>کاربر با موفقیت ایجاد شد.</value></data>
+  <data name="Identity.User.Deactivated" xml:space="preserve"><value>کاربر با موفقیت غیرفعال شد.</value></data>
+  <data name="Identity.User.Deleted" xml:space="preserve"><value>کاربر با موفقیت حذف شد.</value></data>
+  <data name="Identity.User.PasswordChanged" xml:space="preserve"><value>رمز عبور با موفقیت تغییر کرد.</value></data>
+  <data name="Identity.User.PasswordReset" xml:space="preserve"><value>رمز عبور با موفقیت بازنشانی شد.</value></data>
+  <data name="Identity.User.PasswordResetRequested" xml:space="preserve"><value>درخواست بازنشانی رمز عبور با موفقیت ثبت شد.</value></data>
+  <data name="Identity.User.RoleAdded" xml:space="preserve"><value>نقش با موفقیت به کاربر اضافه شد.</value></data>
+  <data name="Identity.User.RoleRemoved" xml:space="preserve"><value>نقش با موفقیت از کاربر حذف شد.</value></data>
+  <data name="Identity.User.Updated" xml:space="preserve"><value>کاربر با موفقیت به‌روزرسانی شد.</value></data>
+</root>

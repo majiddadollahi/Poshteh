@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\src\01.Core\Poshteh.Core.ApplicationService\Poshteh.Core.ApplicationService.csproj" />
+    <ProjectReference Include="..\..\..\src\01.Core\Poshteh.Core.Calendar\Poshteh.Core.Calendar.csproj" />
     <ProjectReference Include="..\..\..\src\03.Endpoints\Poshteh.Endpoint.Api\Poshteh.Endpoint.Api.csproj" />
   </ItemGroup>
 

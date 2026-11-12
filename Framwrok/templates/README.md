@@ -8,8 +8,8 @@ framework:
 | Poshteh Application | `poshteh` | `Poshteh.Templates.Application` |
 
 ```powershell
-dotnet new install ./Poshteh.Templates/content/PoshtehStarter
-dotnet new poshteh -n Mahtab --PoshtehFeed <feed-hosting-Poshteh-packages>
+dotnet new install Poshteh.Templates
+dotnet new poshteh -n Mahtab
 ```
 
 See [Poshteh.Templates/README.md](Poshteh.Templates/README.md) for parameters, packaging and maintenance.
